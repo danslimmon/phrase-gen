@@ -11,5 +11,7 @@ $title = rtrim(`ruby phrase.rb data/of-montreal.yaml`);
         <div style="position: relative; top: 2em; text-align: center"><img src="/of-montreal-divider.png"></div>
         <div style="position: relative; top: 3em; color: white; font-size: x-large; text-align: center"><? echo $title ?></div>
     </div>
+
+    <div style="position: fixed; bottom: 1em; left: 49%; font-size: 0.6em; color: gray; font-family: Helvetica, Sans-Serif"><a href="https://github.com/danslimmon/phrase-gen">Source</a></div>
     </body>
 </html>
