@@ -1,0 +1,150 @@
+---
+name:
+- Miriam
+- Althea
+- Stephen
+- Agatha
+- Charity
+- Grendel
+- Simon
+- Reginald
+- Elisif
+- Nina
+- Georgie
+- Terence
+- Eleanor
+- Boniface
+- Caroline
+- Saint Percival
+- Archibald
+place:
+- Greenland
+- Northumbria
+- Dunkirk
+- Stuttgart
+- Iceland
+- Copenhagen
+- Asgard
+- Munich
+- St. Petersburg
+- Chelmsford
+- East Berlin
+- Uxbridge
+- Assyria
+thing:
+- Opiate
+- Syllable
+- Wound
+- Fealty
+- Phantasm
+- Aphrodisiac
+- Advocate
+- Crux
+- Apothecary
+- Pantry
+- Pillary
+- Dromedary
+- Tripod
+- Prefecture
+- Æsthete
+- Rumen
+- Estuary
+- Truncheon
+- Capillary
+- Torrent
+- Wisp
+- Cochlea
+- Egoist
+- Knob
+- Torque
+- Romp
+- Binge
+plural_thing:
+- Wiles
+- Lice
+- Bison
+- Cassewaries
+- Oils
+- Magi
+- Sculptors
+- Nymphs
+- Cherubim
+- Patterns
+- Sylphs
+- Larks
+- Adulterers
+- Critics
+- Libertines
+- Terrors
+adjective:
+- Exacting
+- Flaxen
+- Habitual
+- Conflicting
+- Vestal
+- Salivary
+- Impacted
+- Exalted
+- Satin
+- Extravagant
+- Pomeranian
+- Perishing
+- Delectable
+- Stoic
+- Withering
+- Sinewy
+- Crepuscular
+- Fortuitous
+- Laminar
+- Vertiginous
+- Celibate
+- Ascetic
+- Functional
+- Biblical
+- Avalonian
+- Sylvan
+- Squirming
+- Desolate
+- Faux
+- Sartorial
+- Climactic
+- Eloquent
+- Ribald
+- Lentine
+- Socratic
+- Syrupy
+- Grotesque
+- Elemental
+trans_sing_verb:
+- Manipulates
+- Enters
+- Dredges
+- Wields
+- Whets
+- Discards
+- Inhabits
+- Consumes
+- Rotates About
+- Fistulates
+- Oils
+- Frots
+- Seduces
+- Corrupts
+- Banishes
+- Coaxes
+- Eroticizes
+- Rests Atop
+- Antagonizes
+- Excludes
+- Transports
+- Recreates
+- Falls On
+pattern:
+- @indef_article@ @adjective@ @thing@
+- @indef_article@ @thing@ In @place@
+- @name@ As @indef_article@ @adjective@ @thing@
+- @thing@ Of The @plural_thing@
+- @name@ @trans_sing_verb@ @indef_article@ @thing@
+- @adjective@ @thing@
+- @name@'s @adjective@ @thing@
+- The @adjective@ @plural_thing@
