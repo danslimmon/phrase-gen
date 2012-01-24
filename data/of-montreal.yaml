@@ -23,6 +23,8 @@ name:
 - Mimsy
 - Aloysius
 place:
+- Eyjafjallajökull
+- Anglia
 - Greenland
 - Northumbria
 - Dunkirk
@@ -37,6 +39,14 @@ place:
 - Uxbridge
 - Assyria
 thing:
+- Bombast
+- Isthmus 
+- Bombardier
+- Pugilist
+- Ingrid bergman
+- Palindrome
+- Warlock
+- Mandolin
 - Ascent
 - Percentage
 - Wolf
@@ -94,6 +104,9 @@ plural_thing:
 - Libertines
 - Terrors
 adjective:
+- Demure
+- Visceral
+- Halcyon
 - Paralytic
 - Spiteful
 - Dour
@@ -141,6 +154,9 @@ adjective:
 - Grotesque
 - Elemental
 trans_sing_verb:
+- Ramshackles
+- Bandies
+- Purloins
 - Manipulates
 - Enters
 - Dredges
