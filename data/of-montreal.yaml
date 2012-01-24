@@ -17,6 +17,11 @@ name:
 - Caroline
 - Saint Percival
 - Archibald
+- Viola
+- Dame Giraldine
+- Algernon
+- Mimsy
+- Aloysius
 place:
 - Greenland
 - Northumbria
@@ -32,6 +37,16 @@ place:
 - Uxbridge
 - Assyria
 thing:
+- Ascent
+- Percentage
+- Wolf
+- Murder
+- Dowery
+- Plaintiff
+- Debt
+- Knife
+- Remission
+- Heraldry
 - Opiate
 - Syllable
 - Wound
@@ -60,6 +75,8 @@ thing:
 - Romp
 - Binge
 plural_thing:
+- Stalks
+- Debts
 - Wiles
 - Lice
 - Bison
@@ -77,6 +94,14 @@ plural_thing:
 - Libertines
 - Terrors
 adjective:
+- Paralytic
+- Spiteful
+- Dour
+- Wolf
+- Exorcismic
+- Breeding
+- Authentic
+- Pyrrhic
 - Exacting
 - Flaxen
 - Habitual
