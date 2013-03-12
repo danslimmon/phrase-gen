@@ -60,7 +60,7 @@ thing:
 - Percentage
 - Wolf
 - Murder
-- Dowery
+- Dowry
 - Plaintiff
 - Debt
 - Knife
@@ -112,7 +112,10 @@ plural_thing:
 - Critics
 - Libertines
 - Terrors
+- Girdles
 adjective:
+- Flowering
+- Slipshod
 - Derelict
 - Demure
 - Visceral
@@ -163,7 +166,11 @@ adjective:
 - Syrupy
 - Grotesque
 - Elemental
+- Silken
 trans_sing_verb:
+- Contemplates
+- Flagellates
+- Scours
 - Ramshackles
 - Bandies
 - Purloins
