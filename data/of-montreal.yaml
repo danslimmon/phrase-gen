@@ -198,11 +198,11 @@ trans_sing_verb:
 - Recreates
 - Falls On
 pattern:
-- @indef_article@ @adjective@ @thing@
-- @indef_article@ @thing@ In @place@
-- @name@ As @indef_article@ @adjective@ @thing@
-- @thing@ Of The @plural_thing@
-- @name@ @trans_sing_verb@ @indef_article@ @thing@
-- @adjective@ @thing@
-- @name@'s @adjective@ @thing@
-- @adjective@ @plural_thing@
+- ^indef_article^ ^adjective^ ^thing^
+- ^indef_article^ ^thing^ In ^place^
+- ^name^ As ^indef_article^ ^adjective^ ^thing^
+- ^thing^ Of The ^plural_thing^
+- ^name^ ^trans_sing_verb^ ^indef_article^ ^thing^
+- ^adjective^ ^thing^
+- ^name^'s ^adjective^ ^thing^
+- ^adjective^ ^plural_thing^

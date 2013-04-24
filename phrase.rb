@@ -1,4 +1,5 @@
 #!/usr/bin/ruby
+# encoding: utf-8
 
 require 'yaml'
 
@@ -10,7 +11,7 @@ class DataFile
 
     def pick(word_type)
         _read_file! if @_data.nil?
-        @_data[word_type].choice
+        @_data[word_type].sample
     end
 
     def _read_file!
@@ -29,14 +30,14 @@ class TitlePattern
         t = pattern_text
         indef_article = false
         until t.empty?
-            if t =~ /^@indef_article@ (.*)/
+            if t =~ /^\^indef_article\^ (.*)/
                 indef_article = true
                 t = $1
-            elsif t =~ /^@(.*?)@(.*)/
+            elsif t =~ /^\^(.*?)\^(.*)/
                 @words << Word.new($1, :indef_article => indef_article)
                 t = $2
                 indef_article = false
-            elsif t =~ /^(.*?)(@.*)/
+            elsif t =~ /^(.*?)(\^.*)/
                 @words << Word.new(:plaintext, :text => $1)
                 t = $2
             else
