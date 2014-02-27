@@ -48,6 +48,7 @@ place:
 - Scythia
 - Guernsey
 thing:
+- Flattery
 - Locust
 - Bombast
 - Isthmus 
@@ -93,6 +94,8 @@ thing:
 - Torque
 - Romp
 - Binge
+- Strangulation
+- Excretion
 plural_thing:
 - Stalks
 - Debts
@@ -167,6 +170,7 @@ adjective:
 - Grotesque
 - Elemental
 - Silken
+- Pestilent
 trans_sing_verb:
 - Contemplates
 - Flagellates
@@ -206,3 +210,4 @@ pattern:
 - ^adjective^ ^thing^
 - ^name^'s ^adjective^ ^thing^
 - ^adjective^ ^plural_thing^
+- Your ^adjective^ ^thing^
