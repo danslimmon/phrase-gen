@@ -33,14 +33,19 @@ class PhrasePattern
     def parse!(pattern_text)
         t = pattern_text
         indef_article = false
+        no_the = false
         until t.empty?
             if t =~ /^\^indef_article\^ (.*)/
                 indef_article = true
                 t = $1
+            elsif t =~ /^\^no_the\^ (.*)/
+                no_the = true
+                t = $1
             elsif t =~ /^\^(.*?)\^(.*)/
-                @words << Word.new($1, :indef_article => indef_article)
+                @words << Word.new($1, :indef_article => indef_article, :no_the => no_the)
                 t = $2
                 indef_article = false
+                no_the = false
             elsif t =~ /^(.*?)(\^.*)/
                 @words << Word.new(:plaintext, :text => $1)
                 t = $2
@@ -72,12 +77,13 @@ class Phrase
 end
 
 class Word
-    attr_accessor :type, :indef_article, :text
+    attr_accessor :type, :indef_article, :no_the, :text
 
     def initialize(type, options={})
         @type = type
 
         @indef_article = options[:indef_article] if options.key?(:indef_article)
+        @no_the = options[:no_the] if options.key?(:no_the)
         # Gets set if this word is plaintext instead of a macro
         @text = options[:text] if options.key?(:text)
     end
@@ -93,6 +99,9 @@ class Word
             else
                 word = (uppercase ? "A " : "a ") + word
             end
+        end
+        if @no_the
+            word.sub!(/^the /i, "")
         end
 
         word
