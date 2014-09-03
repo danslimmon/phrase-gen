@@ -9,9 +9,13 @@ class DataFile
         @_data = nil
     end
 
-    def pick(word_type)
+    def pick(word_type, already_used=[])
         _read_file! if @_data.nil?
-        @_data[word_type].sample
+        word = nil
+        while word.nil? or already_used.include?(word) do
+            word = @_data[word_type].sample
+        end
+        word
     end
 
     def _read_file!
@@ -21,7 +25,7 @@ class DataFile
     end
 end
 
-class TitlePattern
+class PhrasePattern
     attr_accessor :words
 
     def initialize; @words = []; end
@@ -48,16 +52,19 @@ class TitlePattern
     end
 end
 
-class Title
+class Phrase
     def generate(path)
         df = DataFile.new(path)
 
-        pattern = TitlePattern.new
+        pattern = PhrasePattern.new
         pattern.parse!(df.pick("pattern"))
 
         title = ""
+        already_used = []
         pattern.words.each do |w|
-            title += w.pick(df)
+            picked_word = w.pick(df, already_used)
+            title += picked_word
+            already_used << picked_word
         end
 
         title
@@ -75,15 +82,16 @@ class Word
         @text = options[:text] if options.key?(:text)
     end
 
-    def pick(data_file)
-        return @text if type == :plaintext
+    def pick(data_file, already_used=[])
+        return @text if @type == :plaintext
 
-        word = data_file.pick(type)
+        word = data_file.pick(@type, already_used)
         if @indef_article
+            uppercase = (word[0].upcase == word[0])
             if word =~ /^[æaeioøœu]/i
-                word = "An " + word
+                word = (uppercase ? "An " : "an ") + word
             else
-                word = "A " + word
+                word = (uppercase ? "A " : "a ") + word
             end
         end
 
@@ -92,7 +100,7 @@ class Word
 end
 
 if $0 == __FILE__
-    t = Title.new
+    t = Phrase.new
     data_path = ARGV[0]
     puts t.generate(data_path)
 end

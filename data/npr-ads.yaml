@@ -1,0 +1,100 @@
+---
+Org_name:
+- Samuel J. Flintbridge
+- Reba McEntire
+- Ezra Pantaloon McKinsey
+- Vincent Thomas Albert
+- Quincy Brottersmithup
+- Richard Wood Johnson
+- Katherine K. Clownsman
+- Helga Matsuda-Nkembe
+- Ophelia Al-Hamidi Gutierrez-McSwardson
+- Christina Applegate
+- Bill And Melinda Gates
+- Noam Chomsky
+- Ferreth Hoosper
+- Elwood J. Nosebottom
+- Shirley Temple Grandin
+Org_type:
+- Foundation
+- Institution
+- Academy
+- Fund
+- Conclave
+- Council
+- Project
+- Initiative
+Gerund:
+- Building
+- Maintaining
+- Reimagining
+- Fetishizing
+- Excreting
+- Problematizing
+- Incentivizing
+- Divesting from
+- Computerizing
+- Invigorating
+- Empowering
+- Building a bridge to
+comparative:
+- more compassionate
+- reimagined
+- happier
+- more meaningful
+- more challenging
+- simpler
+- more modern
+- more condescending
+- stronger
+- more transparent
+- more open
+area_to_improve:
+- feminism
+- homelessness
+- racial awareness
+- mental health community
+- Internet
+- spirituality
+- cheese industry
+- patriarchy
+- hegemony
+- knick-knack industry
+- autism
+- poverty
+- justice system
+- veganism
+- Minnesota
+- Judaism
+value:
+- compassion
+- service
+- enunciation
+- self-denial
+- phrenology
+- righteous anger
+- the arts
+- social science
+- evidence-tampering
+- whispering
+- sexual openness
+- technology
+- drug testing
+- informed discourse
+- local ingredients
+- the environment
+- compromise
+- micro-lending
+- education
+- same-sex marriage
+- cancer screening
+- whimsy
+- community participation
+- surrealism
+- biofuels
+- root vegetables
+pattern:
+- "<h1>The ^Org_name^ ^Org_type^:</h1><p>^Gerund^ ^indef_article^ ^comparative^ ^area_to_improve^ through a global commitment to ^value^, ^value^, and ^value^.</p>"
+- "<h1>The ^Org_name^ & ^Org_name^ ^Org_type^:</h1><p>^Gerund^ ^indef_article^ ^comparative^ ^area_to_improve^ through a global commitment to ^value^, ^value^, and ^value^.</p>"
+- "<h1>The ^Org_name^ ^Org_type^:</h1><p>bringing ^comparative^ ^value^ to today's ^area_to_improve^ through a global commitment to ^value^ and ^value^</p>"
+- "<h1>The ^Org_name^ ^Org_type^:</h1><p>exploring the connection between ^area_to_improve^ and ^area_to_improve^ in a ^value^-sensitive context</p>"
