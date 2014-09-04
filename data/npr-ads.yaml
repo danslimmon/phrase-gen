@@ -1,5 +1,6 @@
 ---
 Org_firstname:
+- Calamine
 - Samuel J.
 - Reba
 - Ezra Pantaloon
@@ -16,7 +17,16 @@ Org_firstname:
 - Elwood J.
 - Shirley Temple
 - William Jefferson
+- Eleanora
+- Francine
+- Delbert
+- Krysztof
+- Leonard Falstaff
 Org_lastname:
+- Clairol
+- Jensenman
+- Hewlett
+- Randolph-Cheun
 - Flintbridge
 - McEntire
 - McKinsey
@@ -37,11 +47,13 @@ Org_type:
 - Institution
 - Academy
 - Fund
-- Conclave
 - Council
 - Project
 - Initiative
+- Charitable Trusts
 Gerund:
+- Imagining
+- Encapsulating
 - Building
 - Maintaining
 - Reimagining
@@ -54,6 +66,8 @@ Gerund:
 - Invigorating
 - Empowering
 - Building a bridge to
+- Simplifying
+- Pursuing
 comparative:
 - more compassionate
 - reimagined
@@ -70,7 +84,17 @@ comparative:
 - more verdant
 - more peaceful
 - more just
+- more emotional
+- quieter
+- resplendent
+- faster
+- more scientific
+- cheerier
 area_to_improve:
+- radical Islam
+- drug addiction
+- obesity
+- television
 - feminism
 - homelessness
 - racial awareness
@@ -90,7 +114,32 @@ area_to_improve:
 - the environment
 - ornithology
 - social media
+- class war
+- Stalinism
+- journalism
+- China
+- the labor movement
+- Unitarianism
+- anthropology
+- ecopediatrics
+- Broadway
+- Wall Street
+- illiteracy
+- the fashion industry
+- public radio
 value:
+- hope
+- gravity
+- nasal comfort
+- seriousness
+- branding
+- backyard chicken coops
+- fetal continence
+- positivity
+- meditation
+- cubism
+- frowning
+- game theory
 - wheat
 - compassion
 - public service
@@ -123,7 +172,7 @@ value:
 - fantasy literature
 - sustainable agriculture
 - dance
-- the disabled
+- disability
 - Arab history
 - Native American architecture
 - humor
@@ -147,9 +196,40 @@ value:
 - proactivity
 - Southern cuisine
 - debt relief
+- Caribbean jazz
+- mythology
+- the art sciences
+- the world
+- safer playgrounds
+- water fluorination
+- personal finance
+- wrist health
+- emotional manipulation
+- extreme farming
+- athletic theater
+- gender
+- folk music
+- psychocharity
+- biodiversity
+- board games
+- water privatization
+- scent marking
+- oligarchy
+- transportation
+- fiscal harmony
+- ethnomusicology
+- forestry
+- itch relief
+- clarity of vision
+- Buddhism
+- historical preservation
+- healthcare
+- the rainforest
+- the sciences
+- public relaxation
 pattern:
 - "<h1>The ^Org_firstname^ ^Org_lastname^ ^Org_type^</h1><p>^Gerund^ ^indef_article^ ^comparative^ ^no_the^ ^area_to_improve^ through a global commitment to ^value^, ^value^, and ^value^.</p>"
 - "<h1>The ^Org_firstname^ & ^Org_firstname^ ^Org_lastname^ ^Org_type^</h1><p>^Gerund^ ^indef_article^ ^comparative^ ^no_the^ ^area_to_improve^ through a global commitment to ^value^, ^value^, and ^value^.</p>"
-- "<h1>The ^Org_firstname^ ^Org_lastname^ ^Org_type^</h1><p>Bringing ^comparative^ ^value^ to ^area_to_improve^ through a global commitment to ^value^ and ^value^.</p>"
-- "<h1>The ^Org_firstname^ ^Org_lastname^ ^Org_type^</h1><p>Exploring the connection between ^area_to_improve^ and ^area_to_improve^ in the context of ^comparative^ ^value^.</p>"
+- "<h1>The ^Org_firstname^ ^Org_lastname^ ^Org_type^</h1><p>Bringing ^comparative^ ^no_the^ ^value^ to ^area_to_improve^ through a global commitment to ^value^ and ^value^.</p>"
+- "<h1>The ^Org_firstname^ ^Org_lastname^ ^Org_type^</h1><p>Exploring the connection between ^area_to_improve^ and ^area_to_improve^ in the context of ^comparative^ ^no_the^ ^value^.</p>"
 - "<h1>The ^Org_firstname^ ^Org_lastname^ ^Org_type^</h1><p>Helping to advance ^value^, ^value^, and ^value^ for a ^comparative^ ^no_the^ ^area_to_improve^.</p>"
