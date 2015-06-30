@@ -1,0 +1,173 @@
+---
+body_part:
+- womb
+- body
+- artery
+- throat
+- spine
+- tentacle
+- honey
+- mouth
+- limb
+- finger
+- shoulder blade
+- organ
+- flesh
+- gland
+body_part_s:
+- bodies
+- fleshes
+- organs
+- wombs
+- arteries
+- throats
+- spines
+- tentacles
+- mouths
+- limbs
+- fingers
+- shoulder blades
+- ridges
+- glands
+noun:
+- intimacy
+- longing
+- electricity
+- remedy
+- terror
+- transmission
+- pathogen
+- offering
+- protection
+- icon
+- archive
+- solitude
+- calligraphy
+- talisman
+- adrenaline
+- froth
+- desire
+- generosity
+noun_s:
+- cravings
+- dinosaurs
+- pantomimes
+- climaxes
+- violences
+- eyelashes
+- hemispheres
+- guardians
+- children
+- sorrows
+- parallels
+place:
+- universe
+- palisade
+- mountain
+- landslide
+- palace
+- fortress
+- shelter
+- volcano
+- cavern
+- hollow
+- solitude
+- extrusion
+- periphery
+two_three_syl_adj:
+- cunning
+- bursting
+- dangerous
+- fallow
+- flickering
+- ruinous
+- wondrous
+- shiny
+- infinite
+- forgotten
+- shimmering
+- glowing
+- passionate
+- primal
+- discarded
+- scattered
+- pulsating
+- residual
+- fragile
+- transparent
+- porous
+- shivering
+- ancient
+- secret
+- beautiful
+- expectant
+- paranoid
+- arrogant
+- emotional
+four_five_syl_adj:
+- catastrophic
+- miserable
+- irritating
+- impossible
+- extinguishing
+- corruptible
+- universal
+- miraculous
+- spectacular
+- voluminous
+- extravagant
+- harmonious
+- voluptuous
+- geometrical
+- panoramic
+- irregular
+- inviolable
+trans_verb:
+- hunger for
+- reject
+- formalize
+- regurgitate
+- enshrine
+- tranquilize
+- coax
+- transform
+- peel
+- worship
+- trace
+- explore
+- consecrate
+- juxtapose
+- reciprocate
+- imagine
+- mimic
+trans_verb_s:
+- embraces
+- nourishes
+- quantifies
+- multiplies
+- synchronizes
+- wiggles
+- flexes
+- formulates
+- manipulates
+- flagellates
+- subtracts
+- translates
+- extracts
+- catalogs
+intrans_verb:
+- swoon
+- crystallize
+- sympathize
+- coagulate
+- fantasize
+- meditate
+- rotate
+- whisper
+- salivate
+- flourish
+- wallow
+pattern:
+- "In ^indef_article^ ^two_three_syl_adj^ ^place^<br />I ^intrans_verb^ with ^two_three_syl_adj^ ^noun_s^<br />He ^trans_verb_s^<br />His ^body_part^<br />To ^trans_verb^ my ^four_five_syl_adj^ ^body_part^"
+- "I will not ^trans_verb^ this ^two_three_syl_adj^ ^noun^<br />We ^trans_verb^ our ^noun_s^<br />With ^four_five_syl_adj^ ^body_part_s^"
+- "These ^noun_s^ of ^noun^<br />I ^trans_verb^ and ^trans_verb^ them<br />^capitalize^ ^two_three_syl_adj^<br />^capitalize^ ^two_three_syl_adj^<br />^capitalize^ ^four_five_syl_adj^<br />These ^noun_s^ I ^trans_verb^"

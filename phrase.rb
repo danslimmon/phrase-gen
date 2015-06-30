@@ -12,10 +12,19 @@ class DataFile
     def pick(word_type, already_used=[])
         _read_file! if @_data.nil?
         word = nil
-        while word.nil? or already_used.include?(word) do
+        while word.nil? or _word_already_used?(word, already_used)
             word = @_data[word_type].sample
         end
         word
+    end
+
+    def _word_already_used?(word, already_used)
+        already_used.each do |au|
+            if au.end_with?(word)
+                return true
+            end
+        end
+        return false
     end
 
     def _read_file!
@@ -38,12 +47,16 @@ class PhrasePattern
             if t =~ /^\^indef_article\^ (.*)/
                 indef_article = true
                 t = $1
+            elsif t =~ /^\^capitalize\^ (.*)/
+                capitalize = true
+                t = $1
             elsif t =~ /^\^no_the\^ (.*)/
                 no_the = true
                 t = $1
             elsif t =~ /^\^(.*?)\^(.*)/
-                @words << Word.new($1, :indef_article => indef_article, :no_the => no_the)
+                @words << Word.new($1, :indef_article => indef_article, :no_the => no_the, :capitalize => capitalize)
                 t = $2
+                capitalize = false
                 indef_article = false
                 no_the = false
             elsif t =~ /^(.*?)(\^.*)/
@@ -77,12 +90,13 @@ class Phrase
 end
 
 class Word
-    attr_accessor :type, :indef_article, :no_the, :text
+    attr_accessor :type, :indef_article, :no_the, :capitalize, :text
 
     def initialize(type, options={})
         @type = type
 
         @indef_article = options[:indef_article] if options.key?(:indef_article)
+        @capitalize = options[:capitalize] if options.key?(:capitalize)
         @no_the = options[:no_the] if options.key?(:no_the)
         # Gets set if this word is plaintext instead of a macro
         @text = options[:text] if options.key?(:text)
@@ -99,6 +113,9 @@ class Word
             else
                 word = (uppercase ? "A " : "a ") + word
             end
+        end
+        if @capitalize
+            word[0] = word[0].upcase
         end
         if @no_the
             word.sub!(/^the /i, "")
