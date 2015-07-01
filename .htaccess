@@ -1,2 +1,3 @@
 RewriteEngine On
-RewriteRule ^of-montreal$ index.php
+RewriteRule ^of-montreal$ index_of_montreal.php
+RewriteRule ^bjork$ index_bjork.php

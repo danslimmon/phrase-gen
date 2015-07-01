@@ -1,0 +1,25 @@
+<?php
+
+$lyrics = rtrim(`ruby phrase.rb data/bjork.yaml`);
+?>
+<html>
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <body style="background-color: black; letter-spacing: 1px; font-family: Courier, Monospace; font-weight: bold;">
+    <div style="width: 70%; left-margin: auto; right-margin: auto; position: relative; top: 20%;">
+        <div style="padding-top: 5%; color: white; font-size: medium; text-align: right"><? echo $lyrics ?></div>
+        <div style="padding-top: 5%; color: white; font-size: xx-large; text-align: right">björk</div>
+        <div style="padding-top: 10%; font-size: medium; text-align: right">
+            <a href="/phrase-gen/bjork" style="color: gray;">retransmit</a>
+        </div>
+    </div>
+
+
+    <div style="position: fixed; bottom: 1em; left: 49%; font-size: 0.6em; color: gray; font-family: Helvetica, Sans-Serif"><a href="https://github.com/danslimmon/phrase-gen">Source</a></div>
+    </body>
+</html>
