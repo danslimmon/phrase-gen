@@ -9,7 +9,7 @@ set :views, conf.views_dir
 
 get '/' do
     p = Phrase.new()
-    erb :bjork, :locals => {
+    erb :of_montreal, :locals => {
         :phrase => p.generate(conf.data_path)
     }
 end
