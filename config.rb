@@ -1,5 +1,5 @@
 class Config
-    attr_accessor :data_path, :views_dir
+    attr_accessor :data_path, :template_path
 
     def self.get
         @@active_config ||= self.build_config()
@@ -14,11 +14,11 @@ class Config
         end
         conf.data_path = ENV["PHRASEGEN_DATA_PATH"]
 
-        if ENV["PHRASEGEN_VIEWS_DIR"].nil?
-            puts "must provide PHRASEGEN_VIEWS_DIR in environment"
+        if ENV["PHRASEGEN_TEMPLATE_PATH"].nil?
+            puts "must provide PHRASEGEN_TEMPLATE_PATH in environment"
             exit 1
         end
-        conf.views_dir = ENV["PHRASEGEN_VIEWS_DIR"]
+        conf.template_path = ENV["PHRASEGEN_TEMPLATE_PATH"]
 
         conf
     end
