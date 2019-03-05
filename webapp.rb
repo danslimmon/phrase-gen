@@ -6,6 +6,7 @@ require_relative 'config'
 conf = Config.get
 
 set :bind, '0.0.0.0'
+set :port, conf.port
 
 get '/' do
     p = Phrase.new()

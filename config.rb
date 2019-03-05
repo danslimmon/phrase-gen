@@ -1,5 +1,5 @@
 class Config
-    attr_accessor :data_path, :template_path
+    attr_accessor :data_path, :template_path, :port
 
     def self.get
         @@active_config ||= self.build_config()
@@ -19,6 +19,13 @@ class Config
             exit 1
         end
         conf.template_path = ENV["PHRASEGEN_TEMPLATE_PATH"]
+
+        if ENV["PHRASEGEN_PORT"].nil?
+            puts "must provide PHRASEGEN_PORT in environment"
+            exit 1
+        end
+        conf.port = ENV["PHRASEGEN_PORT"]
+
 
         conf
     end
