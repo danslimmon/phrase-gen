@@ -1,7 +1,3 @@
-<?php
-
-$lyrics = rtrim(`ruby phrase.rb data/bjork.yaml`);
-?>
 <html>
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
@@ -12,7 +8,7 @@ $lyrics = rtrim(`ruby phrase.rb data/bjork.yaml`);
 
     <body style="background-color: black; letter-spacing: 1px; font-family: Courier, Monospace; font-weight: bold;">
     <div style="width: 70%; left-margin: auto; right-margin: auto; position: relative; top: 20%;">
-        <div style="padding-top: 5%; color: white; font-size: medium; text-align: right"><? echo $lyrics ?></div>
+        <div style="padding-top: 5%; color: white; font-size: medium; text-align: right"><%= phrase %></div>
         <div style="padding-top: 5%; color: white; font-size: xx-large; text-align: right">björk</div>
         <div style="padding-top: 10%; font-size: medium; text-align: right">
             <a href="/phrase-gen/bjork" style="color: gray;">retransmit</a>
