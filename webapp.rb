@@ -1,3 +1,7 @@
+require 'rubygems'
+require 'bundler'
+Bundler.require
+
 require 'sinatra'
 require 'erb'
 require_relative 'phrase'

@@ -1,17 +1,19 @@
 FROM ruby:2.5.1
 
-RUN apt-get update && apt-get install -y net-tools
+RUN apt-get update && apt-get install -y net-tools build-essential
 
 # Install gems
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
-RUN gem install sinatra
+WORKDIR $APP_HOME
+ADD Gemfile* $APP_HOME/
+RUN bundle install
 
 # Upload source
-COPY . $APP_HOME
+ADD . $APP_HOME
 
 # Start server
+ENV RACK_ENV "development"
 ENV PHRASEGEN_PORT 3000
 EXPOSE 3000/tcp
-WORKDIR $APP_HOME
 CMD ["ruby", "webapp.rb"]
