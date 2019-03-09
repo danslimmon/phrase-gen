@@ -14,6 +14,19 @@ body_part:
 - organ
 - flesh
 - gland
+- terminus
+- tendon
+- cornea
+- viscera
+- scapula
+- cavity
+- membrane
+- protrusion
+- socket
+- knob
+- bundle
+- fiber
+- tissue
 body_part_s:
 - feathers
 - bodies
@@ -31,6 +44,18 @@ body_part_s:
 - ridges
 - glands
 - lashes
+- tendons
+- corneas
+- viscera
+- scapulas
+- cavities
+- membranes
+- protrusions
+- sockets
+- knobs
+- bundles
+- fibers
+- tissues
 noun:
 - utterance
 - compassion
@@ -51,6 +76,24 @@ noun:
 - desire
 - generosity
 - tangle
+- tourniquet
+- pestle
+- extract
+- chalice
+- plethora
+- thicket
+- YOU ARE HERE
+- transmission
+- pathogen
+- offering
+- protection
+- icon
+- archive
+- solitude
+- talisman
+- froth
+- desire
+- generosity
 noun_s:
 - pharaohs
 - patterns
@@ -136,6 +179,7 @@ four_five_syl_adj:
 - panoramic
 - irregular
 - inviolable
+- erogenous
 trans_verb:
 - radiate
 - hunger for
