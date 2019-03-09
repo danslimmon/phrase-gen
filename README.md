@@ -1,9 +1,6 @@
 # deploying
 
 ```
-sudo docker build -t phrase-gen .
+heroku container:push web
+heroku container_release web
 ```
-
-Tag and push to repo.
-
-If using ECS, go to the Service, click Update, select Force New Deployment, and proceed. You may have to manually stop the old task once the new one is deployed.

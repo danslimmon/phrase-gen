@@ -20,12 +20,11 @@ class Config
         end
         conf.template_path = ENV["PHRASEGEN_TEMPLATE_PATH"]
 
-        if ENV["PHRASEGEN_PORT"].nil?
-            puts "must provide PHRASEGEN_PORT in environment"
+        if ENV["PORT"].nil?
+            puts "must provide PORT in environment"
             exit 1
         end
-        conf.port = ENV["PHRASEGEN_PORT"]
-
+        conf.port = ENV["PORT"]
 
         conf
     end
