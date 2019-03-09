@@ -12,7 +12,7 @@ conf = Config.get
 set :bind, '0.0.0.0'
 set :port, conf.port
 
-get '/' do
+get '/*' do
     p = Phrase.new()
 	erb = ERB.new(File.read(conf.template_path))
 	erb.result_with_hash({
