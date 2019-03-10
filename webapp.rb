@@ -24,7 +24,7 @@ def data_path(phrase_type)
     File.join(conf.data_dir, "#{phrase_type}.yaml")
 end
 
-get '/:phrase_type' do
+get '/pg/:phrase_type' do
     p = Phrase.new()
 	erb = ERB.new(File.read(template_path(params['phrase_type'])))
 	erb.result_with_hash({
