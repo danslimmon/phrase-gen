@@ -52,7 +52,7 @@ body_part_s:
 - membranes
 - protrusions
 - sockets
-- knobs
+- haunches
 - bundles
 - fibers
 - tissues
@@ -82,19 +82,20 @@ noun:
 - chalice
 - plethora
 - thicket
-- YOU ARE HERE
-- transmission
-- pathogen
-- offering
-- protection
-- icon
-- archive
-- solitude
-- talisman
-- froth
-- desire
-- generosity
+- smattering
+- defiance
+- ceremony
+- clarity
+- continent
+- canvas
+- melody
+- bitterness
+- sharpness
+- foundry
+- dressing gown
+- squalor
 noun_s:
+- YOU ARE HERE
 - pharaohs
 - patterns
 - fantasies
@@ -159,6 +160,8 @@ two_three_syl_adj:
 - paranoid
 - arrogant
 - emotional
+- shivering
+- watery
 four_five_syl_adj:
 - anterior
 - catastrophic
