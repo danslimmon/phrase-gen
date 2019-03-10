@@ -14,6 +14,6 @@ ADD . $APP_HOME
 
 # Start server
 ENV RACK_ENV "development"
-ENV PHRASEGEN_PORT 3000
+ENV PORT 3000
 EXPOSE 3000/tcp
 CMD ["ruby", "webapp.rb"]
