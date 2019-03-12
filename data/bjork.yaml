@@ -94,8 +94,8 @@ noun:
 - foundry
 - dressing gown
 - squalor
+- charity
 noun_s:
-- YOU ARE HERE
 - pharaohs
 - patterns
 - fantasies
@@ -111,10 +111,26 @@ noun_s:
 - sorrows
 - parallels
 - things
+- feathers
+- silences
+- cataclysms
+- delicacies
+- ancients
+- gardens
+- passages
+- riverbeds
+- monologues
+- torches
+- bedfellows
+- cherubim
+- spiderwebs
+- entrances
+- flatteries
+- platitudes
 place:
 - landscape
 - universe
-- palisade
+- mire
 - mountain
 - landslide
 - palace
@@ -127,7 +143,24 @@ place:
 - extrusion
 - periphery
 - orphanage
+- waterway
+- desert
+- foundry
+- mine shaft
+- tenement
+- waterfall
+- barrow
+- current
+- tannery
+- insula
+- crater
+- potter's field
+- fog
+- sorrow
+- shantytown
+- pyre
 two_three_syl_adj:
+- ravenous
 - opulent
 - precious
 - cunning
@@ -162,7 +195,45 @@ two_three_syl_adj:
 - emotional
 - shivering
 - watery
+- uterine
+- arrogant
+- tactless
+- powerful
+- wretched
+- mendicant
+- filial
+- resinous
+- callous
+- valuable
+- welcome
+- fetching
+- orderly
+- sickening
+- toothy
+- leathery
+- vascular
+- petrified
+- florid
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 four_five_syl_adj:
+- sacrificial
+- articulated
+- execrable
 - anterior
 - catastrophic
 - residual
@@ -183,6 +254,7 @@ four_five_syl_adj:
 - irregular
 - inviolable
 - erogenous
+- tantalizing
 trans_verb:
 - radiate
 - hunger for
@@ -238,6 +310,7 @@ intrans_verb:
 - wallow
 - wait
 - caterwaul
+- prowl
 pattern:
 - "in ^indef_article^ ^two_three_syl_adj^ ^place^<br />i ^intrans_verb^ with ^two_three_syl_adj^ ^noun_s^<br />he ^trans_verb_s^ his ^body_part^<br />to ^trans_verb^ my ^four_five_syl_adj^ ^body_part^"
 - "i will not ^trans_verb^ this ^two_three_syl_adj^ ^noun^<br />we ^trans_verb^ our ^noun_s^<br />with ^four_five_syl_adj^ ^body_part_s^"
