@@ -28,6 +28,7 @@ body_part:
 - fiber
 - tissue
 body_part_s:
+- entrails
 - feathers
 - bodies
 - fleshes
@@ -58,10 +59,12 @@ body_part_s:
 - tissues
 noun:
 - utterance
+- passenger
 - compassion
 - intimacy
 - longing
 - electricity
+- transistor
 - remedy
 - terror
 - transmission
@@ -213,25 +216,30 @@ two_three_syl_adj:
 - leathery
 - vascular
 - petrified
-- florid
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- flowering
+- asinine
+- bellicose
+- chattering
+- pregnant
+- chloroform
+- nestled
+- petulant
+- scrabbling
+- penitent
+- singular
+- torrential
+- sorrowful
+- viscous
+- effluent
+- matted
+- luminal
 four_five_syl_adj:
+- spectacular
+- unscrupulous
+- vermicular
+- corrugated
 - sacrificial
+- ordinary
 - articulated
 - execrable
 - anterior
@@ -255,6 +263,35 @@ four_five_syl_adj:
 - inviolable
 - erogenous
 - tantalizing
+- spectacular
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 trans_verb:
 - radiate
 - hunger for
@@ -276,6 +313,7 @@ trans_verb:
 - expose
 - pacify
 - alleviate
+- criss-cross
 trans_verb_s:
 - paralyzes
 - embraces
@@ -295,6 +333,7 @@ trans_verb_s:
 - catalogs
 - escalates
 intrans_verb:
+- scurry
 - calculate
 - anticipate
 - swoon
