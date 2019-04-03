@@ -98,6 +98,7 @@ noun:
 - dressing gown
 - squalor
 - charity
+- cleft
 noun_s:
 - pharaohs
 - patterns
@@ -197,6 +198,7 @@ two_three_syl_adj:
 - arrogant
 - emotional
 - shivering
+- sulphurous
 - watery
 - uterine
 - arrogant
@@ -233,6 +235,15 @@ two_three_syl_adj:
 - effluent
 - matted
 - luminal
+- ripened
+- torrid
+- orbiting
+- wooded
+- calcified
+- vitrified
+- oppressive
+- sweltering
+- withering
 four_five_syl_adj:
 - spectacular
 - unscrupulous
@@ -252,7 +263,7 @@ four_five_syl_adj:
 - corruptible
 - universal
 - miraculous
-- spectacular
+- salivating
 - voluminous
 - extravagant
 - harmonious
@@ -263,35 +274,35 @@ four_five_syl_adj:
 - inviolable
 - erogenous
 - tantalizing
-- spectacular
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- enervated
+- meticulous
+- undulating
+- unfathomable
+- inscrutable
+- horrifying
+- transcendental
+- intangible
+- delectable
+- melodious
+- elephantine
+- impenetrable
+- incompatible
+- fistulated
+- mechanistic
+- intransigent
+- diaphanous
+- peduncular
+- encapsulated
+- unfortunate
+- androgynous
+- kaleidoscopic
+- unsoftening
+- telephonic
+- terrestrial
+- unsentimental
+- insignificant
+- cacophonous
+- monumental
 trans_verb:
 - radiate
 - hunger for
@@ -314,6 +325,27 @@ trans_verb:
 - pacify
 - alleviate
 - criss-cross
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 trans_verb_s:
 - paralyzes
 - embraces
