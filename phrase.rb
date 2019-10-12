@@ -71,6 +71,12 @@ class PhrasePattern
 end
 
 class Phrase
+    attr_accessor :newline
+
+    def initialize
+        @newline = "<br />"
+    end
+
     def generate(path)
         df = DataFile.new(path)
 
@@ -85,6 +91,7 @@ class Phrase
             already_used << picked_word
         end
 
+        title.gsub!(/<br \/>/, @newline)
         title
     end
 end

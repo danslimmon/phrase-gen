@@ -195,6 +195,6 @@ pattern:
 - "in ^indef_article^ ^two_three_syl_adj^ ^place^<br />i ^intrans_verb^ with ^two_three_syl_adj^ ^noun_s^<br />he ^trans_verb_s^ his ^body_part^<br />to ^trans_verb^ my ^four_five_syl_adj^ ^body_part^"
 - "i will not ^trans_verb^ this ^two_three_syl_adj^ ^noun^<br />we ^trans_verb^ our ^noun_s^<br />with ^four_five_syl_adj^ ^body_part_s^"
 - "these ^noun_s^ of ^noun^<br />i ^trans_verb^ and ^trans_verb^ them<br />^two_three_syl_adj^<br />^two_three_syl_adj^<br />^four_five_syl_adj^<br />these ^noun_s^ i ^trans_verb^"
-- "^intrans_verb^ for me, ^two_three_syl_adj^ ^noun^<br />and ^trans_verb^ this ^two_three_syl_adj^ ^noun^<br />my ^body_part^ is a ^noun^<br />and you are the ^noun^"
+- "^intrans_verb^ for me, ^two_three_syl_adj^ ^noun^<br />and ^trans_verb^ this ^two_three_syl_adj^ ^noun^<br />my ^body_part^ is ^indef_article^ ^noun^<br />and you are the ^noun^"
 - "this ^noun^<br />is ^indef_article^ ^four_five_syl_adj^ ^place^<br />where ^noun_s^ ^intrans_verb^<br /><br />^two_three_syl_adj^ ^body_part_s^"
 - "^intrans_verb^<br />^intrans_verb^<br />^trans_verb^ my ^two_three_syl_adj^ ^body_part_s^<br />^four_five_syl_adj^ ^noun_s^"
