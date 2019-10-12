@@ -14,7 +14,21 @@ body_part:
 - organ
 - flesh
 - gland
+- terminus
+- tendon
+- cornea
+- viscera
+- scapula
+- cavity
+- membrane
+- protrusion
+- socket
+- knob
+- bundle
+- fiber
+- tissue
 body_part_s:
+- entrails
 - feathers
 - bodies
 - fleshes
@@ -31,12 +45,26 @@ body_part_s:
 - ridges
 - glands
 - lashes
+- tendons
+- corneas
+- viscera
+- scapulas
+- cavities
+- membranes
+- protrusions
+- sockets
+- haunches
+- bundles
+- fibers
+- tissues
 noun:
 - utterance
+- passenger
 - compassion
 - intimacy
 - longing
 - electricity
+- transistor
 - remedy
 - terror
 - transmission
@@ -51,6 +79,26 @@ noun:
 - desire
 - generosity
 - tangle
+- tourniquet
+- pestle
+- extract
+- chalice
+- plethora
+- thicket
+- smattering
+- defiance
+- ceremony
+- clarity
+- continent
+- canvas
+- melody
+- bitterness
+- sharpness
+- foundry
+- dressing gown
+- squalor
+- charity
+- cleft
 noun_s:
 - pharaohs
 - patterns
@@ -67,10 +115,26 @@ noun_s:
 - sorrows
 - parallels
 - things
+- feathers
+- silences
+- cataclysms
+- delicacies
+- ancients
+- gardens
+- passages
+- riverbeds
+- monologues
+- torches
+- bedfellows
+- cherubim
+- spiderwebs
+- entrances
+- flatteries
+- platitudes
 place:
 - landscape
 - universe
-- palisade
+- mire
 - mountain
 - landslide
 - palace
@@ -83,7 +147,24 @@ place:
 - extrusion
 - periphery
 - orphanage
+- waterway
+- desert
+- foundry
+- mine shaft
+- tenement
+- waterfall
+- barrow
+- current
+- tannery
+- insula
+- crater
+- potter's field
+- fog
+- sorrow
+- shantytown
+- pyre
 two_three_syl_adj:
+- ravenous
 - opulent
 - precious
 - cunning
@@ -116,7 +197,62 @@ two_three_syl_adj:
 - paranoid
 - arrogant
 - emotional
+- shivering
+- sulphurous
+- watery
+- uterine
+- arrogant
+- tactless
+- powerful
+- wretched
+- mendicant
+- filial
+- resinous
+- callous
+- valuable
+- welcome
+- fetching
+- orderly
+- sickening
+- toothy
+- leathery
+- vascular
+- petrified
+- flowering
+- asinine
+- bellicose
+- chattering
+- pregnant
+- chloroform
+- nestled
+- petulant
+- scrabbling
+- penitent
+- singular
+- torrential
+- sorrowful
+- viscous
+- effluent
+- matted
+- luminal
+- ripened
+- torrid
+- orbiting
+- wooded
+- calcified
+- vitrified
+- oppressive
+- sweltering
+- withering
 four_five_syl_adj:
+- spectacular
+- unscrupulous
+- vermicular
+- corrugated
+- sacrificial
+- ordinary
+- articulated
+- execrable
 - anterior
 - catastrophic
 - residual
@@ -127,7 +263,7 @@ four_five_syl_adj:
 - corruptible
 - universal
 - miraculous
-- spectacular
+- salivating
 - voluminous
 - extravagant
 - harmonious
@@ -136,6 +272,37 @@ four_five_syl_adj:
 - panoramic
 - irregular
 - inviolable
+- erogenous
+- tantalizing
+- enervated
+- meticulous
+- undulating
+- unfathomable
+- inscrutable
+- horrifying
+- transcendental
+- intangible
+- delectable
+- melodious
+- elephantine
+- impenetrable
+- incompatible
+- fistulated
+- mechanistic
+- intransigent
+- diaphanous
+- peduncular
+- encapsulated
+- unfortunate
+- androgynous
+- kaleidoscopic
+- unsoftening
+- telephonic
+- terrestrial
+- unsentimental
+- insignificant
+- cacophonous
+- monumental
 trans_verb:
 - radiate
 - hunger for
@@ -157,6 +324,28 @@ trans_verb:
 - expose
 - pacify
 - alleviate
+- criss-cross
+- rend
+- access
+- vibrate
+- punish
+- tantalize
+- terrify
+- deaden
+- feast on
+- challenge
+- center
+- formulate
+- dessicate
+- cradle
+- reconstitute
+- feather
+- power
+- fetishize
+- elongate
+- weaken
+- swaddle
+- blacken
 trans_verb_s:
 - paralyzes
 - embraces
@@ -176,6 +365,7 @@ trans_verb_s:
 - catalogs
 - escalates
 intrans_verb:
+- scurry
 - calculate
 - anticipate
 - swoon
@@ -191,6 +381,7 @@ intrans_verb:
 - wallow
 - wait
 - caterwaul
+- prowl
 pattern:
 - "in ^indef_article^ ^two_three_syl_adj^ ^place^<br />i ^intrans_verb^ with ^two_three_syl_adj^ ^noun_s^<br />he ^trans_verb_s^ his ^body_part^<br />to ^trans_verb^ my ^four_five_syl_adj^ ^body_part^"
 - "i will not ^trans_verb^ this ^two_three_syl_adj^ ^noun^<br />we ^trans_verb^ our ^noun_s^<br />with ^four_five_syl_adj^ ^body_part_s^"
@@ -198,3 +389,5 @@ pattern:
 - "^intrans_verb^ for me, ^two_three_syl_adj^ ^noun^<br />and ^trans_verb^ this ^two_three_syl_adj^ ^noun^<br />my ^body_part^ is ^indef_article^ ^noun^<br />and you are the ^noun^"
 - "this ^noun^<br />is ^indef_article^ ^four_five_syl_adj^ ^place^<br />where ^noun_s^ ^intrans_verb^<br /><br />^two_three_syl_adj^ ^body_part_s^"
 - "^intrans_verb^<br />^intrans_verb^<br />^trans_verb^ my ^two_three_syl_adj^ ^body_part_s^<br />^four_five_syl_adj^ ^noun_s^"
+- "you cannot ^trans_verb^ my ^noun^<br />^two_three_syl_adj^ ^noun_s^<br />will ^trans_verb^ these ^four_five_syl_adj^ ^body_part_s^"
+- "he ^trans_verb_s^ his ^body_part^<br />^four_five_syl_adj^ ^noun^ that ^trans_verb_s^ my ^noun^<br />^two_three_syl_adj^ ^noun_s^"
