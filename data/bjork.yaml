@@ -382,6 +382,13 @@ intrans_verb:
 - wait
 - caterwaul
 - prowl
+preposition:
+- within
+- along
+- around
+- inside
+- against
+- into
 pattern:
 - "in ^indef_article^ ^two_three_syl_adj^ ^place^<br />i ^intrans_verb^ with ^two_three_syl_adj^ ^noun_s^<br />he ^trans_verb_s^ his ^body_part^<br />to ^trans_verb^ my ^four_five_syl_adj^ ^body_part^"
 - "i will not ^trans_verb^ this ^two_three_syl_adj^ ^noun^<br />we ^trans_verb^ our ^noun_s^<br />with ^four_five_syl_adj^ ^body_part_s^"
@@ -390,4 +397,5 @@ pattern:
 - "this ^noun^<br />is ^indef_article^ ^four_five_syl_adj^ ^place^<br />where ^noun_s^ ^intrans_verb^<br /><br />^two_three_syl_adj^ ^body_part_s^"
 - "^intrans_verb^<br />^intrans_verb^<br />^trans_verb^ my ^two_three_syl_adj^ ^body_part_s^<br />^four_five_syl_adj^ ^noun_s^"
 - "you cannot ^trans_verb^ my ^noun^<br />^two_three_syl_adj^ ^noun_s^<br />will ^trans_verb^ these ^four_five_syl_adj^ ^body_part_s^"
-- "he ^trans_verb_s^ his ^body_part^<br />^four_five_syl_adj^ ^noun^ that ^trans_verb_s^ my ^noun^<br />^two_three_syl_adj^ ^noun_s^"
+- "he ^trans_verb_s^ his ^body_part^<br />^preposition^ my ^two_three_syl_adj^ ^place^<br />^trans_verb^ this ^two_three_syl_adj^ ^noun^<br />^four_five_syl_adj^ ^noun^"
+- "they ^intrans_verb^ and ^intrans_verb^<br />my ^two_three_syl_adj^ ^noun_s^<br />^four_five_syl_adj^, ^four_five_syl_adj^<br />these ^two_three_syl_adj^ ^body_part_s^"

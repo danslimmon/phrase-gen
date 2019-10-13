@@ -20,4 +20,5 @@ def generate_tweet
 end
 
 tweet_text = generate_tweet()
-client.update(tweet_text)
+#client.update(tweet_text)
+puts tweet_text
